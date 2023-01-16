@@ -1,0 +1,169 @@
+/* MUI START */
+.MuiPaper-root {
+	background-image: none !important;
+}
+.MuiPaper-rounded {
+	border-radius: 12px !important;
+}
+.MuiDrawer-paper.MuiDrawer-paperAnchorRight {
+	border-top-left-radius: 1.5rem;
+	border-bottom-left-radius: 1.5rem;
+}
+.MuiAccordion-root:before {
+	content: none !important;
+}
+.MuiPopover-paper {
+	box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 25%), 0px 8px 10px 1px rgb(0 0 0 / 30%), 0px 3px 14px 2px rgb(0 0 0 / 40%) !important;
+}
+.MuiButton-root {
+	border-radius: 10px !important;
+}
+.MuiButton-root.MuiButton-sizeMedium {
+	min-width: auto;
+	padding: 8px;
+}
+.MuiCheckbox-root {
+	padding: 0 !important;
+}
+.MuiFormGroup-root .MuiFormControlLabel-root {
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+.MuiFormGroup-root .MuiFormControlLabel-root .MuiCheckbox-root {
+	margin-right: 8px;
+}
+/* Tab */
+.MuiTabs-root {
+	max-height: 38px !important;
+	min-height: 38px !important;
+}
+.MuiTabScrollButton-horizontal.Mui-disabled {
+	opacity: 0.4 !important;
+}
+.MuiButtonBase-root.MuiTab-root {
+	max-height: 38px !important;
+	min-height: 38px !important;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+/* Tab */
+/* DatePicker */
+.MuiPickersDay-root {
+	font-size: 1rem !important;
+}
+/* DatePicker */
+/* Tooltip */
+.MuiTooltip-popper .MuiTooltip-tooltip {
+	font-size: 12px;
+}
+/* Tooltip */
+/* Search Popover */
+.search-popover .MuiInputBase-root {
+	background-color: transparent !important;
+}
+/* Search Popover */
+/* MUI END */
+.phone-input .MuiInputAdornment-root {
+	margin-top: 0 !important;
+}
+.phone-input input {
+	padding: 8px 12px 9px 8px !important;
+}
+/* Devextreme DataGrid */
+tr.dx-data-row.dx-state-hover td:hover {
+	cursor: pointer;
+}
+/* Devextreme DataGrid */
+/* CSV Importer */
+.CSVImporter_ColumnDragTargetArea__box {
+	flex-basis: 16.66%;
+}
+/* CSV Importer */
+.PhoneInput {
+	width: 100%;
+}
+.PhoneInputInput {
+	background-color: #f3f6f9;
+	border-color: #f3f6f9;
+	border-radius: 4px;
+	border: 0;
+	color: #3f4254;
+	padding: 0.75rem;
+	transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+.PhoneInputInput:focus {
+	border-color: #1976d2;
+}
+/* Form Builder */
+.builder-sidebar .btn {
+	width: 100%;
+}
+.component-btn-group .component-settings-button i {
+	font-size: 1rem;
+}
+.formio-dialog .ace_editor {
+	height: 168px;
+}
+.formio-dialog .ace_editor .ace_gutter {
+	width: 44px;
+}
+.formio-dialog .ace_editor .ace_gutter .ace_content {
+	top: 0px;
+	left: 0px;
+	width: 383px;
+	height: 196px;
+}
+.formio.builder i {
+	color: #ffffff;
+}
+.formio.builder .btn.btn-default.component-settings-button {
+	background-color: #ffffff;
+}
+.formio.builder .btn.btn-default.component-settings-button i {
+	color: #000000;
+}
+.formcomponents .formcomponent {
+	font-size: 1rem;
+}
+.formio-dialog.formio-dialog-theme-default .formio-dialog-content {
+	font-size: 1rem;
+}
+.formio-form .card-header {
+	padding: 0.75rem 1.25rem;
+}
+.formio-form .form-group {
+	margin-bottom: 1rem;
+}
+.formio-form .form-check-inline {
+	margin-right: 0.75rem;
+}
+.formio-form .card-body {
+	padding: 1.25rem;
+}
+.formio-form .card-header-tabs {
+	margin-bottom: -0.75rem;
+	margin-left: -0.625rem;
+	margin-right: -0.625rem;
+}
+/* Form Builder */
+/* Workflow Builder */
+#container,
+#viewer-container,
+#modeler-container {
+	background: #ffffff;
+	height: 100%;
+}
+#modeler-container {
+	flex-grow: 1;
+}
+#properties-panel-parent {
+	background: #f8f8f8;
+	border-left: solid 1px #ccc;
+}
+.bpp-properties-header .label {
+	width: auto;
+}
+/* Workflow Builder */
+.MuiPhoneNumber-flagButton {
+	max-width: 30px;
+}
