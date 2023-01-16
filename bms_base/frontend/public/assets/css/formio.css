@@ -1,0 +1,37 @@
+.min-vw-30 {
+	min-width: 30vw;
+}
+.choices__list--single {
+	display: inline-flex !important;
+	font-family: Rubik, Helvetica, "sans-serif" !important;
+}
+.ace_content span {
+	font-family: inherit !important;
+}
+.formio-component-datetime input.form-control {
+	border-top-left-radius: 0.375rem !important;
+	border-bottom-left-radius: 0.375rem !important;
+}
+.formio-component-datetime span.input-group-text {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	padding: 0.625rem 0.75rem !important;
+}
+a[ref="fileLink"] {
+	cursor: pointer;
+	position: relative;
+}
+a[ref="fileLink"] .sr-only {
+	visibility: hidden;
+	top: 140%;
+	height: auto;
+	width: auto;
+	clip: auto;
+	background: black;
+	color: white;
+	padding: 3px 6px;
+	border-radius: 5px;
+}
+a[ref="fileLink"]:hover .sr-only {
+	visibility: visible;
+}
